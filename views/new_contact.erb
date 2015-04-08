@@ -1,10 +1,10 @@
-<h1><% @crm_app_name %></h1>
+<h1> <%= $crm_app_name %> </h1>
 <h2>Add New Contact</h2>
 
 <form action="/contacts" method="post">
-  <input type="text" name="first_name">
-  <input type="text" name="last_name">
-  <input type="text" name="email">
-  <input type="text" name="note">
+  First name: <input type="text" name="first_name"><br>
+  Last name: <input type="text" name="last_name"><br>
+  Email: <input type="text" name="email"><br>
+  Note: <input type="text" name="note"><br>
   <input type="submit" name="Submit">
-</form>
+  </form>
